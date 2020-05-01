@@ -5,7 +5,6 @@ from ..items import MomoItem
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
-
 class Momofoundation3Spider(scrapy.Spider):
     name = 'momofoundation3'
     start_urls = [
